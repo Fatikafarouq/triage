@@ -42,11 +42,11 @@ WEBSITE        = "[www.prototype.com]"
 CHUNKS = [
 
     # ── IDENTITY & CONTACT ───────────────────────────────────
-    f"The clinic name is {Biocity vet}. The main phone number is {CLINIC_PHONE}.",
-    f"The clinic address is {No 22 health street}.",
-    f"The clinic website is {www.prototype.com}.",
-    f"The 24/7 emergency line is {765432}. Call this number any time of day or night for life-threatening pet emergencies.",
-    f"The WhatsApp number for the clinic is {567890}. You can message us on WhatsApp for non-emergency queries.",
+    f"The clinic name is {CLINIC_NAME}. The main phone number is {CLINIC_PHONE}.",
+    f"The clinic address is {ADDRESS}.",
+    f"The clinic website is {WEBSITE}.",
+    f"The 24/7 emergency line is {EMERGENCY_LINE}. Call this number any time of day or night for life-threatening pet emergencies.",
+    f"The WhatsApp number for the clinic is {WHATSAPP}. You can message us on WhatsApp for non-emergency queries.",
 
     # ── OPENING HOURS ─────────────────────────────────────────
     "The clinic is open Monday to Friday from 8:00 AM to 6:00 PM.",
