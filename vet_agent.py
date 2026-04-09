@@ -28,15 +28,11 @@ import sys
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-# Import Phase 2 classifier (same folder)
+# Import Phase 2 classifier
 from vet_classifier import classify as triage_classify
 
-# Import Phase 3 knowledge base
-from vet_sop_knowledge import (
-    CHUNKS, CLINIC_NAME, CLINIC_PHONE,
-    EMERGENCY_LINE, WHATSAPP, ADDRESS
-)
-
+# Import Phase 3 knowledge base - Simplified to one line to avoid bracket errors
+from vet_sop_knowledge import CHUNKS, CLINIC_NAME, CLINIC_PHONE, EMERGENCY_LINE, WHATSAPP, ADDRESS
 
 # ─────────────────────────────────────────────────────────────
 #  HOW TF-IDF WORKS (plain English)
